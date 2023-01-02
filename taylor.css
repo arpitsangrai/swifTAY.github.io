@@ -1,0 +1,630 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: arial;
+    background-color: rgb(100, 24, 231);
+    margin: 0px;
+}
+
+/* ........................................... */
+
+.home
+{
+    height: 600px;
+
+    background-image: url("pictures/Aesthetic-Theme-Butterfly-PNG.png");
+    background-size: contain;
+    background-position-y: 10px;
+    background-position-x: 16px;
+}
+
+.nav-bar
+{
+    height: 60px;
+    background-color: white;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    z-index: 100;
+}
+
+.nav-home
+{
+    transition: 0.15s;
+}
+
+.nav-home:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(40, 40, 40);
+    padding: 8px 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.nav-id
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* .nav-home:hover .nav-about .nav-discography .nav-milestones .nav-gallery
+{
+    text-decoration: line-through;
+} */
+
+/* .nav-home:hover .nav-bar
+{
+    text-decoration: line-through;
+} */
+
+/* #nav-home:hover ~ #nav-about
+{
+    text-decoration: line-through;
+} */
+
+.nav-about
+{
+    transition: 0.15s;
+}
+
+.nav-about:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(40, 40, 40);
+    padding: 8px 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.nav-discography
+{
+    transition: 0.15s;
+}
+
+.nav-discography:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(40, 40, 40);
+    padding: 8px 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.nav-milestones
+{
+    transition: 0.15s;
+}
+
+.nav-milestones:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(40, 40, 40);
+    padding: 8px 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.nav-gallery
+{
+    transition: 0.15s;
+}
+
+.nav-gallery:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: rgb(40, 40, 40);
+    padding: 8px 10px;
+    color: white;
+    border-radius: 8px;
+}
+
+.home-photo
+{
+    height: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image
+{
+    height: 400px;
+
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ........................................... */
+
+.about
+{
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(rgb(100, 24, 231), pink);
+}
+
+.about-heading
+{
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One';
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.about-sub-heading
+{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Caveat';
+    font-size: 80px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.native
+{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    /* column-gap: 10px; */
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.native-image
+{
+    background-color: white;
+    border-radius: 2px;
+
+    display: flex;
+    justify-content: center;
+
+    transform:rotate(-10deg)
+}
+
+.native-native-image
+{
+    width: 270px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 2px;
+    
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.native-text
+{
+    background-color: rgba(255, 255, 255, 0.619);
+    padding: 50px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-family: 'Russo One';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid;
+    border-width: 4px;
+
+    text-align: center;
+}
+
+.career-start
+{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    /* column-gap: 10px; */
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.career-start-text
+{
+    background-color: rgba(255, 255, 255, 0.619);
+    padding: 50px;
+    border-radius: 2px;
+
+    font-size: 20px;
+    font-family: 'Russo One';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid;
+    border-width: 4px;
+
+    text-align: center;
+}
+
+.career-start-image
+{
+    border-radius: 2px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 14px;
+    padding-bottom: 40px;
+
+    transform:rotate(10deg)
+}
+
+.career-start-start-image
+{
+    height: 200px;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.atthemoment
+{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    /* column-gap: 10px; */
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.atthemoment-image
+{
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 14px;
+    padding-bottom: 30px;
+
+    border-radius: 2px;
+
+    transform:rotate(-10deg)
+}
+
+.atthemoment-at-image
+{
+    height: 180px;
+    width: 270px;
+    object-fit: contain;
+    border-radius: 2px;
+}
+
+.atthemoment-text
+{
+    background-color: rgba(255, 255, 255, 0.619);
+    padding: 50px;
+    border-radius: 2px;
+
+    font-size: 20px;
+    font-family: 'Russo One';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: solid;
+    border-width: 4px;
+
+    text-align: center;
+}
+
+/* ........................................... */
+
+.discography
+{
+    background-image: linear-gradient(pink, rgb(43, 101, 236));
+}
+
+.discography-heading
+{
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One';
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.discography-grid
+{
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.debut
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.debut-vid
+{
+    height: 250px;
+    width: 400px;
+}
+
+.fearless
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fearless-vid
+{
+    height: 250px;
+    width: 400px;
+}
+
+.speaknow
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speaknow-vid
+{
+    height: 250px;
+    width: 400px;
+}
+
+.red
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-vid
+{
+    height: 250px;
+    width: 400px;
+}
+
+.nineteen
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nineteen-vid
+{
+    height: 250px;
+    width: 400px;
+}
+
+.reputation
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reputation-vid
+{
+    height: 250px;
+    width: 400px;
+}
+
+.lover
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lover-vid
+{
+    height: 250px;
+    width: 400px;
+}
+
+.folklore
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.folklore-vid
+{
+    height: 250px;
+    width: 400px;
+}
+
+.evermore
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.evermore-vid
+{
+    height: 250px;
+    width: 400px;
+}
+
+/* ........................................... */
+
+.milestones
+{
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(rgb(43, 101, 236), rgb(100, 24, 231));
+}
+
+.milestones-heading
+{
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One';
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.grammy
+{
+    height: 80px;
+    width: 120px;
+    object-fit: contain;
+}
+
+.award
+{
+    display: flex;
+    margin: 10px 20px;
+}
+
+.grammy-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    height: 120px;
+    box-shadow: 4px 4px 10px rgb(70, 70, 70) inset;
+    border-radius: 100px;
+}
+
+.award-text
+{
+    display: flex;
+    font-family: 'Russo One';
+    font-size: 24px;
+    margin: 10px;
+    color: rgb(185, 185, 185);
+    text-align: center;
+}
+
+/* ........................................... */
+
+.gallery
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+.gallery-heading
+{
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Russo One';
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.memories
+{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.debut-image
+{
+    height: 480px;
+}
+
+/* ........................................... */
+
+.connect
+{
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.619);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0px 10px;
+    margin-top: 20px;
+}
+
+.icons
+{
+    height: 30px;
+    transition: 0.15s;
+}
+
+.icons:hover
+{
+    cursor: pointer;
+    height: 40px;
+}
